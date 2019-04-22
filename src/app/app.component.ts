@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ControlService } from './services/control.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landings';
+  
+  constructor(
+    public _control: ControlService
+    ) { }
 }

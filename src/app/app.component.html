@@ -1,9 +1,8 @@
-<div style="z-index:100;position:fixed;top:0xp;left:0px;height:100px;width:100%">
-    <app-header></app-header>
-</div>
-<div style="height:70px">
-
-</div>
+<app-header></app-header>
 <!-- <app-home></app-home> -->
+
+<app-chat *ngIf="_control.showChat"></app-chat>
+
+<router-outlet></router-outlet>
+
 <app-footer></app-footer>
-<!-- <router-outlet></router-outlet> -->

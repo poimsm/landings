@@ -1,19 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { DeviceDetectorService } from 'ngx-device-detector';
+import { ControlService } from 'src/app/services/control.service';
 
 @Component({
-  selector: 'app-subscribed',
-  templateUrl: './subscribed.component.html',
-  styleUrls: ['./subscribed.component.css']
+  selector: 'app-chat',
+  templateUrl: './chat.component.html',
+  styleUrls: ['./chat.component.css']
 })
-export class SubscribedComponent implements OnInit {
+export class ChatComponent {
+
+  constructor(
+    private deviceService: DeviceDetectorService,
+    private _control: ControlService
+    ) { }
+    
   showChat = true;
   mensaje: string;
-
-  constructor(private deviceService: DeviceDetectorService) { }
-
-  ngOnInit() {
-  }
 
   openWhatsapp() {
     let telefono = '56936271323';
@@ -32,5 +34,6 @@ export class SubscribedComponent implements OnInit {
 
     window.open(url, "_blank");
   }
+
 
 }

@@ -15,22 +15,5 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  openWhatsapp(){
-    let telefono='56936271323';
-    let url = '';
-
-    const isMobile = this.deviceService.isMobile();
-    const isDesktopDevice = this.deviceService.isDesktop();
-
-    if (isMobile) {
-      url = `whatsapp://send?phone=${telefono}&text=${this.mensaje}`;
-    }
-
-    if (isDesktopDevice) {
-      url = `https://web.whatsapp.com/send?phone=${telefono}&text=${this.mensaje}`;
-    }
-
-    window.open(url, "_blank");
-}
 
 }
