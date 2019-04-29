@@ -1,6 +1,108 @@
 <div style="position:fixed;bottom:20px;right:10px;z-index:999">
     <div *ngIf="showChat" style="width:230px;margin-bottom:10px;display:flex;justify-content:flex-end">
       <a (click)="showChat = false"
+        style="box-shadow: 0 0 30px rgba(115,115,115,0.75);background:limegreen;width:27px;height:27px;border-radius:50%;display:flex;align-items:center;justify-content:center">
+        <i class="fas fa-times" style="font-size:12px;color:White"></i>
+      </a>
+    </div>
+    <div *ngIf="showChat" style="box-shadow: 0 0 20px rgba(115,115,115,0.75);width:230px;border-radius:10px">
+      <div
+        style="display:flex;align-items:center;justify-content:center;background:limegreen;height:40px;width:100%;border-radius:10px 10px 0px 0px">
+        <div>         
+          <div style="margin-top:5px;color:white;font-size:18px">
+            Joopiter
+          </div>
+        </div>
+      </div>
+      <div style="background:white;width:230px;padding:12px;border-radius:0px 0px 10px 10px">
+        <div style="color:#888FBB;font-size:14px">
+          Hola, En qué puedo ayudarte?
+        </div>
+      </div>
+    </div>  
+  
+    <div *ngIf="showChat"
+      style="margin-top:20px;box-shadow: 0 0 10px rgba(115,115,115,0.75);background:white;width:230px;border-radius:10px;padding:12px;display:flex;align-items:center;justify-content:space-between">
+      <input type="text" [(ngModel)]="mensaje" style="font-size:14px;width:80%;border:0px" placeholder="Contestar a joopiter"/>
+        <a (click)="openWhatsapp()">
+        <i class="fas fa-paper-plane" style="color:limegreen;font-size:18px;margin-right:15px"></i>
+      </a>
+    </div>
+  
+    <a (click)="showChat = !showChat"
+      style="margin-top:20px;box-shadow: 0 0 20px rgba(115,115,115,0.75);background:limegreen;border-radius:20px;padding:10px;padding-left:15px;padding-right:10px;display:flex;align-items:center">
+      <i class="fab fa-whatsapp" style="color:White;margin-right:10px;font-size:18px"></i>
+      <div style="color:white;font-size:14px">
+        ¡Solicita tu cuenta gratis acá!
+      </div>
+    </a>
+  </div>
+
+
+
+<!-- <div style="position:fixed;bottom:20px;right:10px;z-index:999">
+  <div *ngIf="showChat" style="width:230px;margin-bottom:10px;display:flex;justify-content:flex-end">
+    <a (click)="showChat = false"
+      style="box-shadow: 0 0 30px rgba(115,115,115,0.75);background:#ffdd33;width:27px;height:27px;border-radius:50%;display:flex;align-items:center;justify-content:center">
+      <i class="fas fa-times" style="font-size:12px;color:White"></i>
+    </a>
+  </div>
+  <div *ngIf="showChat" style="box-shadow: 0 0 20px rgba(115,115,115,0.75);width:230px;border-radius:10px">
+    <div
+      style="display:flex;align-items:center;justify-content:center;background:#ffdd33;height:120px;width:100%;border-radius:10px 10px 0px 0px">
+      <div>
+        <div style="width:100%;text-align:center">
+          <div style="border-radius:10px;display:inline-block;width:50px;background:white">
+            <img src="assets/logo.png" style="width:50px">
+          </div>
+        </div>
+        <div style="margin-top:5px;color:white;font-size:18px">
+          Joopiter
+        </div>
+      </div>
+    </div>
+    <div style="background:white;width:230px;padding:12px;border-radius:0px 0px 10px 10px">
+      <div style="color:#888FBB;font-size:14px">
+        Hola, En qué puedo ayudarte?
+      </div>
+    </div>
+  </div>  
+
+  <div *ngIf="showChat"
+    style="margin-top:20px;box-shadow: 0 0 10px rgba(115,115,115,0.75);background:white;width:230px;border-radius:10px;padding:12px;display:flex;align-items:center;justify-content:space-between">
+    <input type="text" [(ngModel)]="mensaje" style="font-size:14px;width:80%;border:0px" placeholder="Contestar a joopiter"/>
+      <a (click)="openWhatsapp()">
+      <i class="fas fa-paper-plane" style="color:#ffdd33;font-size:18px;margin-right:15px"></i>
+    </a>
+  </div>
+
+  <a (click)="showChat = !showChat"
+    style="margin-top:20px;box-shadow: 0 0 20px rgba(115,115,115,0.75);background:#ffdd33;border-radius:20px;padding:10px;padding-left:15px;padding-right:10px;display:flex;align-items:center">
+    <i class="fab fa-whatsapp" style="color:White;margin-right:10px;font-size:18px"></i>
+    <div style="color:white;font-size:14px">
+      ¡Solicita tu cuenta gratis acá!
+    </div>
+  </a>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div style="position:fixed;bottom:20px;right:10px;z-index:999">
+    <div *ngIf="showChat" style="width:230px;margin-bottom:10px;display:flex;justify-content:flex-end">
+      <a (click)="showChat = false"
         style="box-shadow: 0 0 30px rgba(115,115,115,0.75);background:#46bf3b;width:27px;height:27px;border-radius:50%;display:flex;align-items:center;justify-content:center">
         <i class="fas fa-times" style="font-size:12px;color:White"></i>
       </a>
@@ -41,7 +143,10 @@
         ¡Solicita tu cuenta gratis acá!
       </div>
     </a>
-  </div>
+  </div> -->
+
+
+
   
 
 

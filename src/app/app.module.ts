@@ -14,6 +14,8 @@ import { LandEstiloComponent } from './components/land-estilo/land-estilo.compon
 import { RegistroComponent } from './components/registro/registro.component';
 import { RegistroExitosoComponent } from './components/registro-exitoso/registro-exitoso.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { LandingDosComponent } from './components/landing-dos/landing-dos.component';
+import { LandingTresComponent } from './components/landing-tres/landing-tres.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ChatComponent } from './components/chat/chat.component';
     LandEstiloComponent,
     RegistroComponent,
     RegistroExitosoComponent,
-    ChatComponent
+    ChatComponent,
+    LandingDosComponent,
+    LandingTresComponent
   ],
   imports: [
     BrowserModule,
