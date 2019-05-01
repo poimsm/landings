@@ -1,4 +1,4 @@
-<div id="navbar"  class="container-fluid" style="transition: top 0.3s;z-index:100;position:fixed;top:0xp;left:0px;">
+<div id="navbar" #contenedor  class="container-fluid" style="transition: top 0.3s;z-index:100;position:fixed;top:0xp;left:0px;">
 
     <div class="row" style="background:darkorange;">
       <div class="col-12">
@@ -31,20 +31,26 @@
 
       <div class="row">
 
-          <div class="col-sm-12 col-lg-5 offset-lg-1" style="padding-top:130px;padding-bottom:20px;background:darkorange">
-           <div style="width:100%;text-align:center">
-              <img src="assets/localhost_8100_(Galaxy S5) (2).png"
+          <div class="col-sm-12 col-lg-5 offset-lg-1" style="padding-top:100px;padding-bottom:20px;background:darkorange">
+         
+            <div style="font-size:30px;color:#fff;text-align:center">
+              Nueva plataforma para negocios
+            </div>
+            <!-- <div style="width:100%;text-align:center">
+                <img src="assets/google.png" style="display:inline-block;width:170px">
+            </div> -->
+            <div style="width:100%;text-align:center">
+              <img src="assets/c2.svg"
               style="display:inline-block;width:70%">
            </div>
             
         </div>
 
         <div class="col-sm-12 col-lg-4 offset-lg-2" style="background:#fff;">
-          <div style="padding-top:80px;padding-right:10px">
+          <div style="padding:5%;padding-top:80px;">
             
             <div style="font-size:30px;color:#555;text-align:center">
-              Simple. Secure.
-                Reliable messaging.
+              Descarga la app
             </div>
             <div style="width:100%;text-align:center">
                 <img src="assets/google.png" style="display:inline-block;width:200px">
@@ -52,15 +58,15 @@
 
             <div style="color:#999;margin-top:10px;font-size:16px;text-align:center">
               <div style="width:85%;display:inline-block">
-                  With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.
+                  🤗<span style="margin-left:5px">Fideliza a tus clientes</span>
               </div>
 
-              <a (click)="masInfo()">
+              <!-- <a (click)="scrollDown()">
                 <div
-                  style="font-weight:700;text-align:center;margin-top:20px;color:white;background:#ffdd33;border:0px solid #bbb;border-radius:35px;width:100%;padding:15px;font-size:16px">
+                  style="font-weight:700;text-align:center;margin-top:20px;color:white;background:#333;border:0px solid #bbb;border-radius:35px;width:100%;padding:15px;font-size:16px">
                   OBTENER MÁS INFORMAICIÓN
                 </div>
-              </a>
+              </a> -->
             </div>
           </div>
 
@@ -79,7 +85,18 @@
 
 
     <div class="col-sm-12 col-lg-6" >
-      <div data-aos="fade-up" style="margin-bottom:20px">
+        <!-- <div style="border:1px solid #eee">
+            <slideshow [imageUrls]="imageUrlArray" [height]="'600px'" [autoPlay]="true"></slideshow>
+          </div> -->
+      <div style="margin-bottom:20px">
+
+          <!-- <a (click)="scrollDown()">
+              <div
+                style="font-weight:700;text-align:center;margin-top:20px;color:white;background:#333;border:0px solid #bbb;border-radius:35px;width:100%;padding:15px;font-size:16px">
+                OBTENER MÁS INFORMAICIÓN
+              </div>
+            </a> -->
+        
 
       <div style="padding:15px;padding-top:30px;padding-bottom:30px">
         <div style="font-size:12px;color:#999;width:100%;">
@@ -93,12 +110,21 @@
             Joopiter es tu plataforma.
             ¡Es la app que abarca todo! Muy bien organizada y con secciones completas para cada estilo de tienda.
         </div>
-        <div style="color:#222;font-size:15px">
+
+      </div>
+
+        <div style="border:1px solid #eee">
+            <slideshow [imageUrls]="imageUrlArray" [minHeight]="'600px'" [autoPlay]="true" [backgroundSize]="'contain'"></slideshow>
+          </div>
+        <div style="padding:5px;color:#222;font-size:15px">
           <div style="margin-top:30px">
             &ndash; Te puedes crear un catálogo de productos o servicios (gratis).
           </div>
           <div style="margin-top:5px">
             &ndash; Puedes mostrar tu información de contacto y tu ubicación en el mapa (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; Agenda incluida (gratis).
           </div>
           <div style="margin-top:5px">
             &ndash; ¿Aceptas mascotas en tu tienda? ¿Se puede pagar con tarjeta? responde todo esto y más
@@ -108,13 +134,14 @@
             &ndash; ¿Comisiones? ¡Claro! Solo si obtienes ventas a través de la app y es opcional.
           </div>
         </div>
-      </div>
-      <div style="margin-top:20px;width:100%;display:flex;justify-content:center;align-items:center">
+
+
+      <!-- <div style="margin-top:20px;width:100%;display:flex;justify-content:center;align-items:center">
         <div style="overflow:hidden;width:300px;height:270px">
-          <img src="assets/localhost_8100_(Galaxy S5) (2).png"
-            style="box-shadow: 0 0 30px rgba(115,115,115,0.75);width:300px">
+          <img src="assets/localhost_8100_(Galaxy S5) (18).png"
+            style="border:1px solid #eee;width:300px">
         </div>
-      </div>
+      </div> -->
     </div>
 
     </div>
@@ -136,7 +163,7 @@
 
         <div style="margin-top:30px;width:100%;display:flex;justify-content:center;align-items:center">
           <div style="position:relative">
-            <img src="assets/localhost_8100_(Galaxy S5) (8-a).png" style="border:1px solid #eee;width:270px">
+            <img src="assets/localhost_8100_(Galaxy S5) (20).png" style="border:1px solid #eee;width:270px">
           </div>
         </div>
       </div>
@@ -165,7 +192,7 @@
           </div>
       </div>
       <div style="margin-top:20px;margin-bottom:40px;width:100%;display:flex;justify-content:center;align-items:center">
-          <img src="assets/a1.png" style="margin-top:0px;border: 0px solid oldlace;width:280px;transform: rotate(20deg);">
+          <img src="assets/a1.png" style="margin-top:0px;border: 1px solid #eee;width:280px;transform: rotate(20deg);">
       </div>
       <div style="height:40px"></div>
     </div>
@@ -188,9 +215,15 @@
                 agendar horas o programar citas. Explora nuestras funcionalidades y capta nuevos clientes.
           </div>        
       </div>
-      <div style="margin-top:20px;margin-bottom:40px;width:100%;display:flex;justify-content:center;align-items:center">
-        <img src="assets/a1.png" style="margin-top:0px;border: 0px solid oldlace;width:280px;transform: rotate(20deg);">
+
+
+      <div style="border:1px solid #eee">
+        <slideshow [imageUrls]="imageUrlArray" [height]="'600px'" [autoPlay]="true"></slideshow>
       </div>
+
+      <!-- <div style="margin-top:20px;margin-bottom:40px;width:100%;display:flex;justify-content:center;align-items:center">
+        <img src="assets/localhost_8100_(Galaxy S5) (21).png" style="margin-top:0px;border: 0px solid oldlace;width:280px;transform: rotate(0deg);">
+      </div> -->
       <div style="height:20px"></div>
     </div>
 
@@ -231,7 +264,7 @@
         <a (click)="masInfo()">
           <div
             style="font-weight:700;text-align:center;margin-top:30px;color:white;background:#333;border:0px solid #bbb;border-radius:5px;width:100%;padding:15px;font-size:16px">
-            OBTENER MÁS INFORMAICIÓN
+            OBTENER MÁS INFORMACIÓN
           </div>
         </a>
       </div>

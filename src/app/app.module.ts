@@ -17,6 +17,8 @@ import { ChatComponent } from './components/chat/chat.component';
 import { LandingDosComponent } from './components/landing-dos/landing-dos.component';
 import { LandingTresComponent } from './components/landing-tres/landing-tres.component';
 
+import {SlideshowModule} from 'ng-simple-slideshow';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +38,7 @@ import { LandingTresComponent } from './components/landing-tres/landing-tres.com
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    SlideshowModule,
     DeviceDetectorModule.forRoot()
   ],
   providers: [],
