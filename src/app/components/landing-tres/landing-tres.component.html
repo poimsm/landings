@@ -231,44 +231,95 @@
 
 
 
-    <div class="col-lg-6 offset-lg-3" style="background:white">
-      <div style="padding-top:150px;margin-bottom:30px;width:100%;">
-        <div style="font-size:30px;font-weight:700;color:#333;width:100%;text-align:center">
+    <!-- <div class="col-lg-6 offset-lg-3" style="background:#333">
+      <div style="padding-top:100px;margin-bottom:30px;width:100%;">
+        <div style="font-size:30px;font-weight:700;color:#fff;width:100%;text-align:center">
           ¿Eres comercio y estás interesado? ¡Contáctanos!
         </div>
       </div>
-    </div> 
+    </div>  -->
 
-    <div class="col-lg-4 offset-lg-4" style="background:white">
-      <div style="width:100%;margin-bottom:150px">
-        <div>
+    <div class="col-lg-4 offset-lg-4" style="background:#222;margin-top:30px">
+        <div style="padding-top:100px;margin-bottom:30px;width:100%;">
+            <div style="font-size:30px;font-weight:700;color:#fff;width:100%;text-align:center">
+              ¿Eres comercio y estás interesado? ¡Contáctanos!
+            </div>
+          </div>
+      <div style="width:100%;margin-bottom:110px">
+        <!-- <div>
           <input type="text" [(ngModel)]="nombre"
             style="color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
             placeholder="Nombre" />
           <hr style="padding:0px;margin:0px">
-        </div>
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
-            placeholder="Tu dirección de email" />
-          <hr style="padding:0px;margin:0px">
-        </div>
+        </div> -->
+
+        <!-- <div style="color:white;font-size:18px;margin:10px">
+            <span style="margin-left:5px">
+              Te enviaremos información detallada
+            </span>
+        </div> -->
 
         <div>
-          <input type="tel" [(ngModel)]="telefono"
-            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
+            <input type="text" [(ngModel)]="nombre"
+              style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+              placeholder="Nombre" />
+            <hr style="padding:0px;margin:0px">
+          </div>
+
+          <div>
+              <input type="text" [(ngModel)]="email"
+                style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+                placeholder="Tu dirección de email" />
+              <hr style="padding:0px;margin:0px">
+            </div>
+        
+        <div>
+          <input type="text" [(ngModel)]="telefono"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
             placeholder="Tu teléfono" />
           <hr style="padding:0px;margin:0px">
         </div>
 
+        <!-- <div>
+          <input type="tel" [(ngModel)]="telefono"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
+            placeholder="Tu teléfono" />
+          <hr style="padding:0px;margin:0px">
+        </div> -->
+        
+
         <a (click)="masInfo()">
           <div
-            style="font-weight:700;text-align:center;margin-top:30px;color:white;background:#333;border:0px solid #bbb;border-radius:5px;width:100%;padding:15px;font-size:16px">
+            style="font-weight:700;text-align:center;margin-top:30px;color:white;background:slateblue;border:0px solid #bbb;border-radius:0px;width:100%;padding:15px;font-size:16px">
             OBTENER MÁS INFORMACIÓN
           </div>
         </a>
+        <div style="color:white;font-size:14.5px;margin:10px">
+            <i class="fas fa-lock" style="font-size:16px;color:white"></i>
+            <span style="margin-left:5px">
+              Tus datos son pretegidos y no serán compartido con terceros
+            </span>
+        </div>
       </div>
     </div>
+
+    <div class="col-lg-6 offset-lg-3" style="background:#fff">
+        <div style="padding-top:70px;margin-bottom:30px;width:100%;">
+          <div style="font-size:18px;font-weight:500;color:#fff;width:100%;text-align:center">
+            Simon Bolivar 802 - +56976812201
+
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="col-lg-6 offset-lg-3" style="background:#fff;border-top:1px solid #eee">
+          <div style="padding-top:10px;margin-bottom:70px;width:100%;">
+            <div style="font-size:14px;color:#999;width:100%;text-align:center">
+              Simon Bolivar 802, Valdivia +56976812201  
+            </div>
+          </div>
+        </div> 
 
 
 
