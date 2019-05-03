@@ -6,11 +6,13 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { RegistroExitosoComponent } from './components/registro-exitoso/registro-exitoso.component';
 import { LandingDosComponent } from './components/landing-dos/landing-dos.component';
 import { LandingTresComponent } from './components/landing-tres/landing-tres.component';
+import { LandingDesktopComponent } from './components/landing-desktop/landing-desktop.component';
 
 const routes: Routes = [
   {path: 'negocios-1', component: LandEstiloComponent},
   {path: 'negocios-2', component: LandingDosComponent},
   {path: 'negocios-3', component: LandingTresComponent},
+  {path: 'negocios-desktop', component: LandingDesktopComponent},
 
   {path: 'informacion', component: InformacionComponent},
   {path: 'registro', component: RegistroComponent},

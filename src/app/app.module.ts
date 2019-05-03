@@ -18,6 +18,7 @@ import { LandingDosComponent } from './components/landing-dos/landing-dos.compon
 import { LandingTresComponent } from './components/landing-tres/landing-tres.component';
 
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { LandingDesktopComponent } from './components/landing-desktop/landing-desktop.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     RegistroExitosoComponent,
     ChatComponent,
     LandingDosComponent,
-    LandingTresComponent
+    LandingTresComponent,
+    LandingDesktopComponent
   ],
   imports: [
     BrowserModule,
