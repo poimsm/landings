@@ -66,13 +66,16 @@
       <div style="font-size:40px;font-weight:500;color:#444;text-align:center;width:100%">
         Mejores Características
       </div>
-      <div style="color:#555;margin-bottom:80px;font-size:18px;text-align:center;width:100%">
+      <div style="color:#555;font-size:18px;text-align:center;width:100%">
         Te presentamos las mejores facetas que hemos optimizado para tu negocio
       </div>
 
+      <div style="height:50px;"></div>
+
+
       <div style="width:100%;display:flex;align-items:flex-start;justify-content:space-around;flex-wrap:wrap">
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="fas fa-store" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -80,14 +83,13 @@
             Tu tienda online
           </div>
           <div style="width:250px;text-align:center;color:#555">
-            Los usuarios pueden 
+            Los usuarios pueden
             explorar las tiendas desde donde quieran que estén
             ¡Imagina tu tienda 24/7!
-            <!-- La App esta muy bien organizada con secciones completas para cada estilo de tienda. -->
           </div>
         </div>
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="far fa-calendar-alt" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -99,7 +101,7 @@
           </div>
         </div>
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="fas fa-map-marker-alt" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -107,18 +109,19 @@
             Da a conocer tu local
           </div>
           <div style="width:250px;text-align:center;color:#555">
-            <!-- Expande tu tienda a una nueva clientela... -->
             Tu tienda visible en el mapa y tus datos de contacto disponibles
             para todos
-            <!-- ¡No esperes más y expande tu tienda! -->
           </div>
         </div>
       </div>
 
+      <div class="d-none d-lg-block" style="height:50px;"></div>
 
-      <div style="margin-top:50px;width:100%;display:flex;align-items:flex-start;justify-content:space-around">
+
+      <div
+        style="margin-top:0px;width:100%;display:flex;align-items:flex-start;justify-content:space-around;flex-wrap:wrap">
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="fas fa-qrcode" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -127,11 +130,11 @@
           </div>
           <div style="width:250px;text-align:center;color:#555">
             Canjea tus promociones
-            escaneando un codigo desplegado en pantalla 
+            escaneando un codigo desplegado en pantalla
           </div>
         </div>
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="far fa-grin-tongue-squint" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -139,12 +142,12 @@
             Un medio social
           </div>
           <div style="width:250px;text-align:center;color:#555">
-            Conecta con tus clientes con puntuaciones, comentarios e historias... 
+            Conecta con tus clientes con puntuaciones, comentarios e historias...
             ¡No te lo pierdas!
           </div>
         </div>
         <div>
-          <div style="width:100%;text-align:center">
+          <div style="margin-top:30px;width:100%;text-align:center">
             <i class="fas fa-ticket-alt" style="font-size:60px;color:salmon"></i>
           </div>
           <div
@@ -171,10 +174,11 @@
         Capturas De Pantalla
       </div>
       <div style="color:#555;margin-bottom:40px;font-size:18px;text-align:center;width:100%">
-        Una muestra de la app 
+        Una muestra de la app
       </div>
 
-      <div style="background:white;width:100%;display:flex;align-items:center;justify-content:space-around;">
+      <div
+        style="background:white;width:100%;display:flex;align-items:center;justify-content:space-around;flex-wrap:wrap">
         <img *ngFor="let img of imgs02" [src]="img" style="height:450px;margin-top:30px;border:0px solid #eee">
       </div>
 
@@ -189,201 +193,9 @@
 
 
 
-  <div *ngIf="false">
+  <div *ngIf="true" class="row" style="padding-top:20px;padding-bottom:110px;background:#444;margin-top:30px">
 
-
-
-    <div class="row" style="margin-top:70px;margin-bottom:20px">
-
-
-      <div class="col-sm-12 col-lg-6">
-        <div style="margin-bottom:20px">
-
-          <div style="padding:15px;padding-top:30px;padding-bottom:30px">
-            <div style="font-size:12px;color:#999;width:100%;">
-              TU TIENDA
-            </div>
-            <div style="font-weight:400;font-size:26px;color:#222;width:100%">
-              Joopiter app
-            </div>
-            <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
-              ¿Te gustaria tener presencia Online?
-              Joopiter es tu plataforma.
-              ¡Es la app que abarca todo! Muy bien organizada y con secciones completas para cada estilo de tienda.
-            </div>
-
-          </div>
-
-          <div style="border:1px solid #eee">
-            <slideshow [imageUrls]="imageUrlArray" [minHeight]="'600px'" [autoPlay]="true" [backgroundSize]="'contain'">
-            </slideshow>
-          </div>
-          <div style="padding:5px;color:#222;font-size:15px">
-            <div style="margin-top:30px">
-              &ndash; Te puedes crear un catálogo de productos o servicios (gratis).
-            </div>
-            <div style="margin-top:5px">
-              &ndash; Puedes mostrar tu información de contacto y tu ubicación en el mapa (gratis).
-            </div>
-            <div style="margin-top:5px">
-              &ndash; Agenda incluida (gratis).
-            </div>
-            <div style="margin-top:5px">
-              &ndash; ¿Aceptas mascotas en tu tienda? ¿Se puede pagar con tarjeta? responde todo esto y más
-              para que tus clientes lo sepan (gratis).
-            </div>
-            <div style="margin-top:5px">
-              &ndash; ¿Comisiones? ¡Claro! Solo si obtienes ventas a través de la app y es opcional.
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="col-sm-12 col-lg-6">
-        <div>
-
-          <div style="padding-top:30px;padding-bottom:30px">
-            <div style="font-size:12px;color:#999;width:100%">
-              MEDIO SOCIAL
-            </div>
-            <div style="font-weight:400;font-size:26px;color:#222;width:100%">
-              Comodidad
-            </div>
-            <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
-              ¿Te imaginas muchas personas visitando tu tienda? Bueno.. Esa es la idea!... Los usuarios pueden explorar
-              las tiendas
-              desde su casa o trabajo... Pueden evaluar tu tienda, dejar comentarios e historias...
-            </div>
-
-            <div style="margin-top:30px;width:100%;display:flex;justify-content:center;align-items:center">
-              <div style="position:relative">
-                <img src="assets/localhost_8100_(Galaxy S5) (20).png" style="border:1px solid #eee;width:270px">
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-sm-12 col-lg-12">
-        <div style="height:20px"></div>
-      </div>
-
-      <div class="col-sm-12 col-lg-6">
-        <div style="margin-bottom:20px">
-
-          <div style="padding-top:30px;padding-bottom:30px">
-            <div style="font-size:12px;color:#999;width:100%">
-              GANA SEGUIDORES
-            </div>
-
-            <div style="font-weight:400;font-size:26px;color:#222;width:100%">
-              Tu trabajo
-            </div>
-            <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
-              Muestra tus trabajos a todos los usuarios de la app. Es muy facil crear una galería exclusiva para tus
-              nuevas
-              creaciones...
-            </div>
-          </div>
-          <div
-            style="margin-top:20px;margin-bottom:40px;width:100%;display:flex;justify-content:center;align-items:center">
-            <img src="assets/a1.png"
-              style="margin-top:0px;border: 1px solid #eee;width:280px;transform: rotate(20deg);">
-          </div>
-          <div style="height:40px"></div>
-        </div>
-
-      </div>
-
-
-      <div class="col-sm-12 col-lg-10 offset-lg-1">
-        <div>
-
-          <div style="padding-top:30px;padding-bottom:30px">
-            <div style="font-size:12px;color:#999;width:100%;">
-              PROMOCIONES
-            </div>
-            <div style="font-weight:400;font-size:26px;color:#222;width:100%;">
-              Agenda, Paquetes y Cupones
-            </div>
-            <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
-              ¡Tenemos diferentes formas de hacer compras online! Desde cupones, paquetes y promociones hasta
-              agendar horas o programar citas. Explora nuestras funcionalidades y capta nuevos clientes.
-            </div>
-          </div>
-
-          <div style="width:100%;display:flex;align-items:center;justify-content:space-between;">
-            <img *ngFor="let img of imgs01" [src]="img" style="height:400px;margin-top:30px;border:1px solid #eee">
-          </div>
-
-          <div style="height:20px"></div>
-        </div>
-
-      </div>
-
-
-    </div>
-  </div>
-
-
-
-  <div *ngIf="false" class="row" style="background:#eee;margin-top:30px;padding-bottom:20px">
-
-
-    <div class="col-lg-4 offset-lg-4" style="background:#444;margin-top:30px">
-      <div style="padding-top:20px;margin-bottom:0px;width:100%;">
-        <div style="font-size:30px;font-weight:400;color:#fff;width:100%;text-align:center">
-          ¿Eres comercio y estás interesado? ¡Contáctanos!
-        </div>
-      </div>
-      <div style="width:100%;margin-bottom:20px;padding:20px">
-
-        <div>
-          <input type="text" [(ngModel)]="nombre"
-            style="margin-top:20px;color:#444;border:0px;border-bottom:0px solid #fff;border-radius:0px;width:100%;padding:10px;padding-left:10px;font-size:16px"
-            placeholder="Nombre" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="margin-top:20px;color:#444;border:0px;border-bottom:0px solid #fff;border-radius:0px;width:100%;padding:10px;padding-left:10px;font-size:16px"
-            placeholder="Tu dirección de email" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <input type="text" [(ngModel)]="telefono"
-            style="margin-top:20px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:10px;font-size:16px"
-            placeholder="Teléfono" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-
-        <a (click)="masInfo()">
-          <div
-            style="font-weight:700;text-align:center;margin-top:30px;color:white;background:slateblue;border:0px solid #bbb;border-radius:0px;width:100%;padding:15px;font-size:16px">
-            OBTENER MÁS INFORMACIÓN
-          </div>
-        </a>
-        <div style="color:white;font-size:14.5px;margin:10px">
-          <i class="fas fa-lock" style="font-size:16px;color:white"></i>
-          <span style="margin-left:5px">
-            Tus datos son pretegidos y no serán compartido con terceros
-          </span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
-
-  <div *ngIf="true" class="row" style="padding-top:20px;padding-bottom:0px;background:#444;margin-top:30px">
-    <div class="col-lg-10 offset-lg-1" style="background:#444">
+    <div class="col-sm-12 col-lg-10 offset-lg-1">
       <div style="padding-top:40px;margin-bottom:30px;width:100%;">
         <div style="font-size:35px;font-weight:400;color:#fff;width:100%;text-align:center">
           Solicita una cuenta gratis
@@ -392,91 +204,43 @@
           ¿Eres comercio y estás interesado? ¡Contáctanos!
         </div>
       </div>
-      <div style="width:100%;margin-bottom:110px;display:flex;align-items:center;justify-content:space-between">
+    </div>
 
-        <div>
-          <input type="text" [(ngModel)]="nombre"
-            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Nombre" />
-          <hr style="padding:0px;margin:0px">
+    <div class="col-sm-12 col-lg-12">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-lg-7 offset-lg-1">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4 offset-lg-0">
+              <input type="text" [(ngModel)]="nombre"
+                style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:10px;font-size:16px"
+                placeholder="Nombre" />
+            </div>
+            <div class="col-sm-12 col-lg-4 offset-lg-0">
+              <input type="text" [(ngModel)]="email"
+                style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:10px;font-size:16px"
+                placeholder="Email" />
+            </div>
+            <div class="col-sm-12 col-lg-4 offset-lg-0">
+              <input type="text" [(ngModel)]="telefono"
+                style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:10px;font-size:16px"
+                placeholder="Teléfono" />
+            </div>
+          </div>
         </div>
 
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Email" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Teléfono" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
+        <div class="col-sm-12 col-lg-3 offset-lg-0">
           <a (click)="masInfo()">
             <div
-              style="font-weight:700;text-align:center;margin-top:30px;color:white;background:slateblue;border:0px solid #bbb;border-radius:0px;width:300px;padding:10px;font-size:16px">
+              style="font-weight:700;text-align:center;margin-top:30px;color:white;background:slateblue;border:0px solid #bbb;border-radius:0px;width:100%;padding:10px;font-size:16px">
               OBTENER MÁS INFORMACIÓN
             </div>
           </a>
         </div>
+
       </div>
     </div>
-  </div>
-
-  <div *ngIf="false" class="row" style="padding-top:0px;padding-bottom:50px;background:#444;margin-top:30px">
-
-    <div class="col-lg-10 offset-lg-1" style="padding-top:20px;margin-bottom:20px;">
-      <div style="padding-top:40px;margin-bottom:30px;width:100%;">
-        <div style="font-size:35px;font-weight:400;color:#fff;width:100%;text-align:center">
-          Solicta una cuenta gratis ahora
-        </div>
-        <div style="font-size:20px;font-weight:400;color:#fff;width:100%;text-align:center">
-          ¿Eres comercio y estás interesado? ¡Contáctanos!
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-10 offset-lg-1" style="background:#fff;padding-top:20px;margin-bottom:20px;">
-
-      <div
-        style="margin-top:5px;margin-bottom:20px;width:100%;display:flex;align-items:center;justify-content:space-between">
-
-        <div>
-          <input type="text" [(ngModel)]="nombre"
-            style="color:#444;border:0px;border:1px solid #ccc;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Nombre" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="color:#444;border:0px;border:1px solid #ccc;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Email" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <input type="text" [(ngModel)]="email"
-            style="color:#444;border:0px;border:1px solid #ccc;border-radius:0px;width:250px;padding:10px;font-size:16px"
-            placeholder="Tu teléfono" />
-          <hr style="padding:0px;margin:0px">
-        </div>
-
-        <div>
-          <a (click)="masInfo()">
-            <div
-              style="font-weight:700;text-align:center;color:white;background:slateblue;border:0px solid #bbb;border-radius:0px;width:300px;padding:10px;font-size:16px">
-              OBTENER MÁS INFORMACIÓN
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
   </div>
 
 
