@@ -1,0 +1,287 @@
+<div id="navbar" #contenedor class="container-fluid"
+  style="transition: top 0.3s;z-index:100;position:fixed;top:0xp;left:0px;">
+
+  <div class="row" style="background:darkorange;">
+    <div class="col-12">
+      <div style="height:70px;display:flex;align-items:center;justify-content:space-around">
+        <div style="display:flex;align-items:center">
+          <img src="assets/logo.png" style="width:50px;padding:3px;border-radius:5px;background:white">
+          <div style="margin-left:10px;font-size:25px;font-weight:700;color:#fff">
+            joopiter
+          </div>
+        </div>
+
+        <div>
+          <i class="fas fa-align-justify" style="color:white;font-size:22px"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container-fluid">
+
+  <div class="row">
+
+
+
+
+    <div class="col-sm-12 col-lg-12" style="background:#fff">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-lg-5 offset-lg-1" style="padding-top:100px;padding-bottom:20px;background:darkorange">
+
+          <div style="font-size:30px;color:#fff;text-align:center">
+            Nueva plataforma para negocios
+          </div>
+          <div style="width:100%;text-align:center">
+            <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558945933/landing-4/c6goodpng.png"
+              style="display:inline-block;width:70%">
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-lg-4 offset-lg-2" style="background:#fff;">
+          <div style="padding:5%;padding-top:80px;">
+
+            <div style="font-size:25px;color:#555;text-align:center">
+              Si eres comercio, contactanos.
+            </div>
+            <div style="width:100%;text-align:center">
+              <div (click)="scrollDown()"
+                style="font-size:22px;display:inline-block;padding:10px;padding-left:30px;padding-right:30px;border-radius:7px;background:limegreen;color:white">
+                Comenzar
+                <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+              </div>
+            </div>
+
+            <div style="color:#999;margin-top:10px;font-size:16px;text-align:center">
+              <div style="width:85%;display:inline-block">
+                🤗<span style="margin-left:5px">Fideliza a tus clientes</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="col-sm-12 col-lg-6">
+
+      <div style="margin-bottom:20px">
+
+        <div style="padding:15px;padding-top:30px;padding-bottom:30px">
+          <div style="font-size:12px;color:#999;width:100%;">
+            TU TIENDA
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Joopiter
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
+            ¡Es la plataforma que abarca todo! Muy bien organizada y con secciones completas para cada estilo de tienda.
+          </div>
+        </div>
+
+        <div style="border:1px solid #eee">
+          <slideshow [imageUrls]="imageUrlArray" [minHeight]="'600px'" [autoPlay]="true" [backgroundSize]="'contain'">
+          </slideshow>
+        </div>
+
+         <div style="padding:5px;color:#222;font-size:14px">
+          <div style="margin-top:30px">
+            &ndash; Te puedes crear un catálogo de servicios o productos (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; Puedes mostrar tu información de contacto y tu ubicación en el mapa (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; Agenda incluida (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; ¿Aceptas mascotas en tu tienda? ¿Se puede pagar con tarjeta? responde todo esto y más
+            para que tus clientes lo sepan (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; ¿Comisiones? ¡Claro! Solo si obtienes ventas a través de la app y es opcional.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 col-lg-6">
+      <div>
+
+        <div style="padding-top:30px;padding-bottom:30px">
+          <div style="font-size:12px;color:#999;width:100%">
+            MEDIO SOCIAL
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Comodidad
+          </div>
+
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
+            Los usuarios pueden explorar las tiendas a ratos libres en su trabajo o desde casa,
+            impulsar tu negocio dejando reseñas y subiendo la puntuación de tu tienda.
+            ¿Qué esperas 😉?
+          </div>
+          <div style="margin-top:10px">
+            <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941689/landing-4/banner01.jpg"
+              style="width:100%;object-fit:cover">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 col-lg-12">
+      <div style="height:20px"></div>
+    </div>
+
+    <div class="col-sm-12 col-lg-6">
+      <div style="margin-bottom:20px">
+
+        <div style="padding-top:30px">
+          <div style="font-size:12px;color:#999;width:100%">
+            GANA SEGUIDORES
+          </div>
+
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Comparte tu trabajo
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
+            Es muy facil crear una galeria para exibir tus nuevas
+            creaciones...
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941690/landing-4/banner02.jpg"
+            style="width:100%;object-fit:cover">
+        </div>
+        <div style="height:40px"></div>
+      </div>
+
+    </div>
+
+
+    <div class="col-sm-12 col-lg-6">
+      <div>
+
+        <div style="padding-top:30px;">
+          <div style="font-size:12px;color:#999;width:100%;">
+            PROMOCIONES
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%;">
+            Cupones y Giftcards
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
+            Promociona cupones y
+            giftcards exclusivas para tu tienda!...
+
+            Un Mapa que lleva a tesoros 👌
+          </div>
+        </div>
+
+        <div style="margin-top:10px">
+          <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941690/landing-4/banner03.jpg"
+            style="width:100%;object-fit:cover">
+        </div>
+
+
+        <div style="height:20px"></div>
+      </div>
+
+    </div>
+
+
+
+    <div class="col-lg-4 offset-lg-4" style="background:#333;margin-top:30px">
+      <div style="padding-top:100px;margin-bottom:30px;width:100%;">
+        <div style="font-size:30px;color:#fff;width:100%;text-align:center">
+          ¿Eres comercio y estás interesado?
+        </div>
+        <div style="margin-top:20px;font-size:18px;color:#fff;width:100%;text-align:center">
+          Abré tu tienda <span style="font-size:22px;font-weight:600">gratis</span> y activa las ventas
+          solo si lo deseas.
+        </div>
+      </div>
+      <div style="width:100%;margin-bottom:110px">
+
+        <div>
+          <input type="text" [(ngModel)]="nombre"
+            style="margin-top:20px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Nombre" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <div>
+          <input type="email" [(ngModel)]="email"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Tu dirección de email" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <div>
+          <input type="tel" [(ngModel)]="telefono"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Tu teléfono" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <a *ngIf="!isSending" (click)="enviar()">
+          <div
+            style="font-weight:600;text-align:center;margin-top:30px;color:white;background:limegreen;border:0px solid #bbb;border-radius:0px;width:100%;padding:10px;font-size:20px">
+            Comenzar
+            <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+          </div>
+        </a>
+
+        <a *ngIf="isSending">
+          <div
+            style="font-weight:600;text-align:center;margin-top:30px;color:white;background:lightgreen;border:0px solid #bbb;border-radius:0px;width:100%;padding:10px;font-size:20px">
+            Comenzar
+            <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+          </div>
+        </a>
+        <div style="color:#ccc;font-size:14.5px;margin:10px">
+          <i class="fas fa-lock" style="font-size:16px;color:#ccc"></i>
+          <span style="margin-left:5px">
+            Tus datos son pretegidos y no serán compartido con terceros
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-6 offset-lg-3" style="margin-top:100px;border-top:1px solid #eee">
+      <div style="padding-top:10px;margin-bottom:25px;width:100%;">
+        <div style="font-size:16px;color:#666;width:100%;text-align:center">
+          Mokaine is a project by Frank Rapacciuolo, the designer & Pasquale Vitiello, the developer.
+        </div>
+        <div style="font-size:16px;color:#666;width:100%;text-align:center">
+          Help Terms of Use Privacy Policy
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+</div>

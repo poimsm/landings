@@ -14,7 +14,7 @@ export class ChatComponent {
     private _control: ControlService
     ) { }
     
-  showChat = true;
+  showChat = false;
   mensaje: string;
 
   openWhatsapp() {

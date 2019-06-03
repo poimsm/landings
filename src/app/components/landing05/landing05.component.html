@@ -1,0 +1,441 @@
+<div id="navbar" #contenedor class="container-fluid"
+  style="transition: top 0.3s;z-index:100;position:fixed;top:0xp;left:0px;">
+
+  <div class="row" style="background:darkorange;">
+    <div class="col-12">
+      <div style="height:70px;display:flex;align-items:center;justify-content:space-around">
+        <div style="display:flex;align-items:center">
+          <img src="assets/logo.png" style="width:50px;padding:3px;border-radius:5px;background:white">
+          <div style="margin-left:10px;font-size:25px;font-weight:700;color:#fff">
+            joopiter
+          </div>
+        </div>
+
+        <div>
+          <i class="fas fa-align-justify" style="color:white;font-size:22px"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container-fluid">
+
+  <div class="row">
+
+
+
+
+    <div class="col-sm-12 col-lg-12" style="background:#fff">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-lg-5 offset-lg-1" style="padding-top:100px;padding-bottom:20px;background:darkorange">
+
+          <div style="font-size:40px;color:#fff;text-align:center">
+            Nueva plataforma para negocios.
+            <!-- Plataforma para negocios -->
+            <!-- Red social para negocios -->
+            <!-- Plataforma geolocalizada para negocios -->
+            
+          </div>
+          <div style="font-size:20px;color:#fff;text-align:center">
+            <!-- Nueva plataforma para negocios -->
+            <!-- Red social para negocios -->
+            Joopiter es una moderna 'guía telefónica' o una 
+            'vitrina' para tu negocio online 
+  
+            <!-- Añade valor a la experiencia del cliente -->
+            <!-- Envía promociones a tus clientes en tu zona -->
+            <!-- ¿Te gustaria ser parte de una nueva red? Joopiter es la nueva plataforma dedicada a negocios -->
+          </div>
+          <div style="width:100%;text-align:center">
+            <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558945933/landing-4/c6goodpng.png"
+              style="display:inline-block;width:70%">
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-lg-4 offset-lg-2" style="background:#fff;">
+          <div style="padding:5%;padding-top:80px;">
+
+            <div style="font-size:25px;color:#555;text-align:center">
+              <!-- Aumenta tu precensia online! -->
+              <!-- Si eres comercio o emprendimiento, contactanos -->
+              <!-- Sorprende con una mo -->
+              <!-- Sorprente a tus clientes! -->
+              <!-- Potencia tu negocio -->
+              ¡Un salto en promoción!
+            </div>
+            <div style="width:100%;text-align:center">
+              <div (click)="scrollDown()"
+                style="font-size:22px;display:inline-block;padding:10px;padding-left:30px;padding-right:30px;border-radius:7px;background:limegreen;color:white">
+                Comenzar
+                <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+              </div>
+            </div>
+
+            <div style="color:#999;margin-top:10px;font-size:16px;text-align:center">
+              <div style="width:85%;display:inline-block">
+                🤗<span style="margin-left:5px">Fideliza a tus clientes</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="col-sm-12 col-lg-6">
+
+      <div style="margin-bottom:20px">
+
+        <div style="padding:15px;padding-top:30px;padding-bottom:30px">
+          <div style="font-size:12px;color:#999;width:100%;">
+            TU TIENDA
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Joopiter
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
+            <!-- ¿Te gustaria tener presencia Online?
+            Joopiter es tu plataforma.
+            tendrás 
+            y muchos comentarios -->
+            <!-- ¡Es la plataforma que abarca todo! Muy bien organizada y con secciones completas para cada estilo de tienda. -->
+            <!-- En joopiter puedes tener tu tienda online, conseguir
+            reseñas de clientes, obtener  -->
+
+            <!-- Añade valor a la experiencia del cliente -->
+
+            Define un perímetro alrededor de tu negocio 
+
+            En Joopiter puedes enviar notificaciones a tus clientes,
+            crear contenido para tu tienda y sorprender a tus clientes 
+          </div>
+
+
+
+        </div>
+
+        <!-- <video autoplay loop muted controls="false" style="width:100%;border:1px solid #eee">
+          <source src="https://res.cloudinary.com/ddon9fx1n/video/upload/v1558905505/landing-4/Tiendas_1_m.mp4"
+            type="video/mp4">
+          </video> -->
+
+        <!-- <div style="margin-top:10px;border:1px solid #eee">
+            <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558784075/landing-4/final_5ce927a1b2eea50014a519ae_109231.gif" style="width:100%">
+          </div> -->
+
+        <div style="border:1px solid #eee">
+          <slideshow [imageUrls]="imageUrlArray" [minHeight]="'600px'" [autoPlay]="true" [backgroundSize]="'contain'">
+          </slideshow>
+        </div>
+
+        <!-- <div style="padding:5%;padding-top:60px;padding-bottom:50px">
+
+          <div style="font-size:25px;color:#555;text-align:center">
+            Si eres comercio, contactanos
+          </div>
+          <div style="width:100%;text-align:center">
+            <div (click)="scrollDown()"
+              style="font-size:22px;display:inline-block;padding:10px;padding-left:30px;padding-right:30px;border-radius:7px;background:limegreen;color:white">
+              Comenzar
+              <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+            </div>
+          </div>
+
+          <div style="color:#999;margin-top:10px;font-size:16px;text-align:center">
+            <div style="width:85%;display:inline-block">
+              🤗<span style="margin-left:5px">Fideliza a tus clientes</span>
+            </div>
+          </div>
+          
+        </div> -->
+
+        <!-- <div style="padding:5px;color:#222;font-size:14px">
+          <div style="margin-top:30px">
+            &ndash; Te puedes crear un catálogo de servicios o productos (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; Puedes mostrar tu información de contacto y tu ubicación en el mapa (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; Agenda incluida (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; ¿Aceptas mascotas en tu tienda? ¿Se puede pagar con tarjeta? responde todo esto y más
+            para que tus clientes lo sepan (gratis).
+          </div>
+          <div style="margin-top:5px">
+            &ndash; ¿Comisiones? ¡Claro! Solo si obtienes ventas a través de la app y es opcional.
+          </div>
+        </div> -->
+
+
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 col-lg-6">
+      <div>
+
+        <div style="padding-top:30px;padding-bottom:30px">
+          <div style="font-size:12px;color:#999;width:100%">
+            MEDIO SOCIAL
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Comodidad
+          </div>
+          <!-- <div style="text-align:left;display:flex;padding-left:10px">
+              <i class="fas fa-ticket-alt" style="font-size:28px;color:#bbb"></i>
+            <div style="margin-left:20px;font-size:18px">Un texto que describe</div>
+            </div> -->
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
+            <!-- ¿Te imaginas muchas personas visitando tu tienda? Bueno.. Esa es la idea!... Los usuarios pueden explorar
+            las tiendas
+            desde su casa o trabajo... Pueden evaluar, dejar comentarios e historias... 😉
+           -->
+            Los usuarios pueden explorar las tiendas a ratos libres en su trabajo o desde casa,
+            impulsar tu negocio dejando reseñas y subiendo la puntuación de tu tienda.
+            <!-- Joopiter esta hecho para ser compartido, con un link personalizado a tu tienda, las personas pueden
+           compartir tus trabajos en medios sociales. -->
+            ¿Qué esperas 😉?
+            <!-- Las personas le
+           y así llegar a clientes potenciales
+           En joopiter tienes tu propio Link a tu tienda
+           esta hecha para ser compartida
+           Llega a clientes potenciales
+           Los usuarios pueden explorar las tiendas desde donde quieran que 
+  
+           Impulsa tu negocio usando reseñas
+           Consigue que muchas personas visiten tu tienda -->
+            <!-- filter: grayscale(100%); -->
+          </div>
+          <div style="margin-top:10px">
+            <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941689/landing-4/banner01.jpg"
+              style="width:100%;object-fit:cover">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 col-lg-12">
+      <div style="height:20px"></div>
+    </div>
+
+    <div class="col-sm-12 col-lg-6">
+      <div style="margin-bottom:20px">
+
+        <div style="padding-top:30px">
+          <div style="font-size:12px;color:#999;width:100%">
+            GANA SEGUIDORES
+          </div>
+
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%">
+            Comparte tu trabajo
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px">
+            Es muy facil crear una galeria para exibir tus nuevas
+            creaciones...
+
+            <!-- Con un link personalizado a tu tienda, puedes
+            compartir tus trabajos en medios sociales. -->
+
+            <!-- Joopiter
+            esta hecho para ser compartido, con un link personalizado a tu tienda, las personas pueden
+            compartir tus trabajos en medios sociales -->
+
+
+            <!-- Joopiter esta hecho
+            para ser compartido.
+            Con un link personalizado a tu tienda las personas
+            pueden compartir en medios sociales. -->
+
+            <!-- Con un link personalizado a tu tienda
+            las personas pueden compartir  en muchos medios sociales. -->
+            <!-- Muestra tus trabajos a todos los usuarios.
+
+             Es muy facil crear una galería para tus
+            nuevas creaciones... -->
+          </div>
+        </div>
+        <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOC9GS6RLoxjjB-iFozhGb0oHTNAGJDvnbUQXsZuTsGT8m2ia -->
+        <div style="margin-top:10px">
+          <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941690/landing-4/banner02.jpg"
+            style="width:100%;object-fit:cover">
+        </div>
+
+        <!-- <div>
+            <i class="fas fa-ticket-alt" style="font-size:60px;color:salmon"></i>
+        </div> -->
+        <!-- <div style="border:1px solid #eee">
+            <img [src]="imageUrlArray[2]" style="width:100%;height:200px;object-fit:cover">
+          </div> -->
+
+        <div style="height:40px"></div>
+      </div>
+
+    </div>
+
+
+    <div class="col-sm-12 col-lg-6">
+      <div>
+
+        <div style="padding-top:30px;">
+          <div style="font-size:12px;color:#999;width:100%;">
+            PROMOCIONES
+          </div>
+          <div style="font-weight:400;font-size:26px;color:#222;width:100%;">
+            Cupones y Giftcards
+            <!-- 😊 -->
+          </div>
+          <div style="width:100%;color:#222;margin-top:15px;font-size:17px;">
+            Promociona cupones y
+            giftcards exclusivas para tu tienda!...
+
+            Un Mapa que lleva a tesoros 👌
+            <!-- Dirige más clientes a tu negocio con una estrategia -->
+
+            <!-- Estamos innovando en las
+            compras online. -->
+            <!-- Estamos innovando en la forma de como las personas
+            compran online. -->
+            <!-- Tu tienda, tus promociones y muchas reseñas 😊 -->
+
+            <!-- Tu tienda, promociones y muchas reseñas! -->
+
+            <!-- Cada vez estamos
+            innovando en formas de hacer compras online. -->
+
+            <!-- Tenemos diferentes formas de hacer compras online. Tus clientes
+            pueden obtener cupones o giftcards exclusivas para tu tienda...  -->
+
+
+
+            <!-- Crea cupones, paquetes y muchas más promociones para atraer a tus próximos clientes -->
+
+            <!-- ¡Tenemos diferentes formas de hacer compras online! Desde cupones, paquetes y promociones hasta
+            agendar horas o programar citas. Explora nuestras funcionalidades y capta nuevos clientes.
+           -->
+          </div>
+        </div>
+
+        <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpPE0Tnr06oFL4kXwpyqyz_CGyof1P_3SXLL1LGUd9lIwB-KePiw -->
+        <!-- <div style="margin-top:10px">
+          <img
+            src="https://workana.s3.amazonaws.com/projects/929859/c5/f6c28669c347649d317566d0ecd3c2/banner-ejemplo6.jpg?response-content-disposition=inline%3Bfilename%3D%22banner%20ejemplo6.jpg%22&response-content-type=image%2Fjpeg&AWSAccessKeyId=AKIAIMMAP2ONURYRGXEQ&Expires=1558959916&Signature=F0o6V3J8w7EVdN0q01rPbr9YYgg%3D"
+            style="width:100%;object-fit:cover">
+        </div> -->
+        <div style="margin-top:10px">
+          <img src="https://res.cloudinary.com/ddon9fx1n/image/upload/v1558941690/landing-4/banner03.jpg"
+            style="width:100%;object-fit:cover">
+        </div>
+
+
+        <div style="height:20px"></div>
+      </div>
+
+    </div>
+
+
+
+    <div class="col-lg-4 offset-lg-4" style="background:#333;margin-top:30px">
+      <div style="padding-top:100px;margin-bottom:30px;width:100%;">
+        <div style="font-size:30px;color:#fff;width:100%;text-align:center">
+          ¿Eres comercio y estás interesado?
+        </div>
+        <div style="margin-top:20px;font-size:18px;color:#fff;width:100%;text-align:center">
+          Abré tu tienda <span style="font-size:22px;font-weight:600">gratis</span> y activa las ventas
+          solo si lo deseas.
+          <!-- <div style="margin-top:10px">
+              Te enviaremos info detallada.
+          </div> -->
+        </div>
+      </div>
+      <div style="width:100%;margin-bottom:110px">
+        <!-- <div>
+          <input type="text" [(ngModel)]="nombre"
+            style="color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
+            placeholder="Nombre" />
+          <hr style="padding:0px;margin:0px">
+        </div> -->
+
+        <div>
+          <input type="text" [(ngModel)]="nombre"
+            style="margin-top:20px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Nombre" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <div>
+          <input type="text" [(ngModel)]="email"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Tu dirección de email" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <div>
+          <input type="text" [(ngModel)]="telefono"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:13px;font-size:18px"
+            placeholder="Tu teléfono" />
+          <hr style="padding:0px;margin:0px">
+        </div>
+
+        <!-- <div>
+          <input type="tel" [(ngModel)]="telefono"
+            style="margin-top:30px;color:#444;border:0px;border-bottom:0px solid #777;border-radius:0px;width:100%;padding:5px;padding-left:10px;font-size:18px"
+            placeholder="Tu teléfono" />
+          <hr style="padding:0px;margin:0px">
+        </div> -->
+
+
+        <a (click)="enviar()">
+          <div
+            style="font-weight:600;text-align:center;margin-top:30px;color:white;background:limegreen;border:0px solid #bbb;border-radius:0px;width:100%;padding:10px;font-size:20px">
+            Comenzar
+            <i class="fas fa-arrow-right" style="color:white;margin-left:10px;font-size:18px"></i>
+
+          </div>
+        </a>
+        <div style="color:#ccc;font-size:14.5px;margin:10px">
+          <i class="fas fa-lock" style="font-size:16px;color:#ccc"></i>
+          <span style="margin-left:5px">
+            Tus datos son pretegidos y no serán compartido con terceros
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-6 offset-lg-3" style="margin-top:100px;border-top:1px solid #eee">
+      <div style="padding-top:10px;margin-bottom:25px;width:100%;">
+        <div style="font-size:16px;color:#666;width:100%;text-align:center">
+          Mokaine is a project by Frank Rapacciuolo, the designer & Pasquale Vitiello, the developer.
+        </div>
+        <div style="font-size:16px;color:#666;width:100%;text-align:center">
+          Help Terms of Use Privacy Policy
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+</div>

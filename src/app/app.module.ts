@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { DeviceDetectorModule } from 'ngx-device-detector';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from "@angular/common/http";
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
@@ -19,6 +21,11 @@ import { LandingTresComponent } from './components/landing-tres/landing-tres.com
 
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { LandingDesktopComponent } from './components/landing-desktop/landing-desktop.component';
+import { PoliticaPrivacidadComponent } from './components/politica-privacidad/politica-privacidad.component';
+import { LandingCuatroComponent } from './components/landing-cuatro/landing-cuatro.component';
+import { GmailComponent } from './components/gmail/gmail.component';
+import { Blog01Component } from './components/blog01/blog01.component';
+import { Landing05Component } from './components/landing05/landing05.component';
 
 @NgModule({
   declarations: [
@@ -34,13 +41,19 @@ import { LandingDesktopComponent } from './components/landing-desktop/landing-de
     ChatComponent,
     LandingDosComponent,
     LandingTresComponent,
-    LandingDesktopComponent
+    LandingDesktopComponent,
+    PoliticaPrivacidadComponent,
+    LandingCuatroComponent,
+    GmailComponent,
+    Blog01Component,
+    Landing05Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     SlideshowModule,
+    HttpClientModule,
     DeviceDetectorModule.forRoot()
   ],
   providers: [],

@@ -1,9 +1,6 @@
-<!-- <app-header></app-header> -->
-<!-- <app-home></app-home> -->
 
-    <app-chat *ngIf="_control.showChat"></app-chat>
+<div *ngIf="_control.showChat">
+    <app-chat></app-chat>
+</div>
 
-    <router-outlet></router-outlet>
-
-
-<!-- <app-footer></app-footer> -->
+<router-outlet></router-outlet>

@@ -29,8 +29,8 @@ export class LandingTresComponent implements OnInit {
     private router: Router,
     private _control: ControlService
   ) {
-    _control.chatShowUp();
 
+    _control.showChat = true;
 
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {

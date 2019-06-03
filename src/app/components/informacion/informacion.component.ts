@@ -9,7 +9,7 @@ import { ControlService } from 'src/app/services/control.service';
 export class InformacionComponent implements OnInit {
 
   constructor(private _control: ControlService) {
-    _control.chatNotShow();
+    _control.showChat = false;
    }
 
   ngOnInit() {
